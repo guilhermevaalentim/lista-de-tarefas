@@ -10,11 +10,6 @@ Aplicação de linha de comando em Python para gerenciar uma lista de tarefas di
 - **Sair:** encerra o programa
 - Tratamento de entradas inválidas no menu (letras, texto vazio, números fora das opções)
 
-## Tecnologias
-
-- Python 3.12 ou superior
-- Apenas a biblioteca padrão (`os`), sem dependências externas
-
 ## Como usar
 
 Ao iniciar, o programa mostra o menu principal:
