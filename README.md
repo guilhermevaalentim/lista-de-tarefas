@@ -1,4 +1,4 @@
-# Lista de Tarefas (CLI)
+# Lista de Tarefas 📋
 
 Aplicação de linha de comando em Python para gerenciar tarefas direto no terminal. Projeto de estudo para praticar listas, dicionários, funções e tratamento de erros.
 
