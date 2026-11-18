@@ -1,14 +1,29 @@
-# 📝 Lista de Tarefas (CLI)
+# Lista de Tarefas (CLI)
 
-Aplicação de linha de comando em Python para gerenciar uma lista de tarefas direto no terminal. Projeto de estudo para praticar listas, dicionários, funções e tratamento de erros.
+Aplicação de linha de comando em Python para gerenciar tarefas direto no terminal. Projeto de estudo para praticar listas, dicionários, funções e tratamento de erros.
 
 ## Funcionalidades
 
-- **Adicionar tarefa:** cadastra uma nova tarefa na lista
-- **Listar tarefas:** mostra todas as tarefas cadastradas
-- **Remover tarefa:** remove uma tarefa pelo nome
-- **Sair:** encerra o programa
-- Tratamento de entradas inválidas no menu (letras, texto vazio, números fora das opções)
+- Adicionar tarefa
+- Listar tarefas
+- Remover tarefa pelo nome
+- Tratamento de entradas inválidas no menu (letras, texto vazio e números fora das opções)
+- Não aceita nome de tarefa em branco ao adicionar ou remover
+
+## Tecnologias
+
+- Python 3.12 ou superior
+
+## Como executar
+
+Pré-requisito: Python 3.12 ou superior instalado.
+
+```bash
+git clone https://github.com/guilhermevaalentim/lista-de-tarefas.git
+cd lista-de-tarefas
+python app.py     # Windows
+python3 app.py    # Linux / macOS
+```
 
 ## Como usar
 
@@ -27,12 +42,11 @@ Digite o número da opção desejada e siga as instruções na tela.
 
 ## Limitações e próximos passos
 
-- [ ] As tarefas ficam só na memória e são perdidas ao fechar o programa (salvar em arquivo)
+- [ ] Salvar as tarefas em arquivo (hoje voltam à lista inicial ao fechar o programa)
 - [ ] Impedir tarefas com nomes repetidos
 - [ ] Listar as tarefas numeradas e remover pelo número
-- [ ] Compatibilidade da limpeza de tela com Linux e macOS
+- [ ] Tornar a limpeza de tela compatível com Linux e macOS (hoje usa `cls`)
 
 ## Autor
 
-Desenvolvido por **Guilherme Pereira Valentim** como projeto de estudo na trilha de desenvolvimento back-end com Python.
-
+Guilherme Pereira Valentim
